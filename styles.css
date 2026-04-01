@@ -9,26 +9,31 @@
 
 body {
     background-color: #1d2635;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
 
 main {
-    width: 375px;
+    width: 350px;
     background-color: #344248;
     border-radius: 20px;
-    margin: 100px auto;
     padding: 15px;
 }
 
 .seta {
     width: 65px;
 }
+
 select {
     cursor: pointer;
 }
+
 select,
 input {
     width: 100%;
-    height: 48px;
+    height: 40px;
     padding-left: 15px;
     border-radius: 4px;
     outline: none;
@@ -39,16 +44,21 @@ input {
     line-height: 18px;
     color: #555555;
     margin-bottom: 22px;
-   
+
 }
 
 label {
     color: #ffffff;
+
+    span {
+        color: #10fe37;
+    }
 }
+
 
 button {
     width: 100%;
-    height: 48px;
+    height: 40px;
     margin-top: 21px;
     border-radius: 10px;
     font-weight: 700;
@@ -56,7 +66,7 @@ button {
     line-height: 18px;
     background: #ffffff;
     color: #314051;
-    border: 2px solid #1d2635;
+    border: 2px solid #314051;
     cursor: pointer;
 }
 
@@ -74,8 +84,8 @@ section {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 30px 0 0;
-    padding: 15px 0;
+    margin: 20px 0 0;
+    padding: 10px 0;
 }
 
 .seta {
@@ -89,15 +99,18 @@ section {
     align-items: center;
     gap: 4px;
 }
+
 .currency {
-font-weight: 400;
-font-size: 14px;
-line-height: 18px;
-color:#ffffff;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #ffffff;
 }
-.currency-value , .currency-value-to-convert {
-font-weight: 700;
-font-size: 20px;
-line-height: 18px;
-color: #ffffff;
+
+.currency-value,
+.currency-value-to-convert {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 18px;
+    color: #10fe37;
 }
