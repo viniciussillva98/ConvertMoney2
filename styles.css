@@ -2,18 +2,18 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Merienda", cursive;
+    font-family: "Roboto", sans-serif;
 
 }
 
 
 body {
-    background-color: #296a47;
+    background-color: #1d2635;
 }
 
 main {
     width: 375px;
-    background-color: #174b24;
+    background-color: #344248;
     border-radius: 20px;
     margin: 100px auto;
     padding: 15px;
@@ -54,9 +54,9 @@ button {
     font-weight: 700;
     font-size: 18px;
     line-height: 18px;
-    background: #03160a;
-    color: #efd7d7;
-    border: none;
+    background: #ffffff;
+    color: #314051;
+    border: 2px solid #1d2635;
     cursor: pointer;
 }
 
@@ -80,6 +80,7 @@ section {
 
 .seta {
     margin: 15px 0;
+    transform: rotate(90deg);
 }
 
 .currency-box {
